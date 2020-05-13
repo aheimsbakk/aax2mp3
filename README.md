@@ -14,4 +14,4 @@ Just a container wrapping [`KrumpetPirate / AAXtoMP3`](https://github.com/Krumpe
 
 ### Run
 
-    podman run -t -v $(pwd):/src --rm aax2mp3
+    podman run -ti -v $(pwd):/src --rm aax2mp3
