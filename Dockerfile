@@ -9,6 +9,7 @@ RUN source /etc/os-release; \
       https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-${VERSION_ID}.noarch.rpm \
       https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-${VERSION_ID}.noarch.rpm; \
     dnf install -y \
+      bc \
       ffmpeg \
       findutils \
       git \
